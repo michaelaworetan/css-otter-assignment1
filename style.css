@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root {
     --border: 3px solid red;
     --border2: 3px solid yellow;
@@ -6,34 +8,44 @@
 
 body {
     background-color: hsl(0, 0%, 13%);
-    border: var(--border);
+    /* border: var(--border); */
     margin: 0;
     height: 100vh;
     overflow: hidden;
+    line-height: 24px;
+    font-family: "PT Serif", serif, sans-serif;
 }
 
 .card-body {
     max-width: 40vw;
     background-color: #FFFFFF;
     position: relative;
-    border:var(--border2) ;
+    /* border:var(--border2) ; */
     margin: 60px 30px;
     border-radius: 10px;
     padding: 30px;
 }
 
 .card-header {
-    border: var(--border3);
-    width: 50%;
+    /* border: var(--border3); */
+    background-color: #FF0095;
+    width: 70%;
+    font-weight: 400;
+    font-size: 24px;
     overflow-y: visible;
-    margin: -40px 0px 0px;
+    margin: -50px 0px;
+    margin-bottom: 0px;
     z-index: 1;
-    padding: 10px;
+    padding: 10px 24px;
     border-radius: 5px;
 }
 
 .card-content {
-    border: var(--border);
+    /* border: var(--border); */
     margin: 20px 0px;
     max-width: 70%;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
 }
