@@ -58,8 +58,7 @@ main {
     color: #333;
 }
 
-/* Responsive Design */
-@media (min-width: 768px) {
+@media (max-width: 1280px) {
     .card {
         max-width: 60%;
         padding: 40px;
@@ -74,17 +73,18 @@ main {
     }
 }
 
-@media (min-width: 1280px) {
+@media (max-width: 768px) {
     .card {
-        max-width: 40%;
+        max-width: 90%;
+        padding: 30px;
     }
 
     .card-header {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .card-content {
-        font-size: 22px;
-        line-height: 1.8;
+        font-size: 20px;
+        line-height: 1.6;
     }
 }
