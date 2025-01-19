@@ -21,7 +21,7 @@ main {
 }
 
 .card {
-    max-width: 90%;
+    max-width: 60%;
     background-color: #FFFFFF;
     position: relative;
     margin: 60px auto;
@@ -60,7 +60,7 @@ main {
 
 @media (max-width: 1280px) {
     .card {
-        max-width: 60%;
+        max-width: 70%;
         padding: 40px;
     }
 
